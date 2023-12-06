@@ -1,2 +1,7 @@
 /node_modules
 biblioteca.conf
+
+/Libros
+
+!/Libros/Libros/Default.pdf
+!/Libros/Portadas/Default.PNG

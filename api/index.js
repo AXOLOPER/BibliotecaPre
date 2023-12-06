@@ -39,7 +39,9 @@ const limiter = RateLimit({
 });
 
 
-const EXTURI= process.env.EXTURI||'';
+const EXTURI= process.env.EXTURI||'/api';
+
+console.log(EXTURI);
 
 // Apply rate limiter to all requests
 app.use(limiter)
